@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <title>registration form</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+<style>
+table,th,td
+{
+border:1px invisible;
+}
+body
+{
+background-image: url("background image.png");
+}
+button
+{
+background-color:#DFF9FC;
+}
+a
+{
+font-size:120%;color:#020202;
+}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<td><img src="h logo1.png" width="40px" height="35px"></td>
+<td width="250px" height="70px" style="font-size:200%;">FITNESS CLUB</td>
+<td style="padding-left:370px;"><img src="h logo3.png" width="150px" height="40pxpx"></td>
+<td style="padding-top:40px;padding-left:200px;"><button onclick="document.location='index.html'"style="font-size:100%;">Home</button></td>
+<td style="padding-top:40px;padding-left:15px;"><button onclick="document.location='about.html'"style="font-size:100%;">About Us</button></td>
+<td style="padding-top:40px;padding-left:15px;"><button onclick="document.location='trainings.html'"style="font-size:100%;">Training</button></td>
+<td style="padding-top:40px;padding-left:15px;"><button onclick="document.location='time table.html'"style="font-size:100%;">Timetable</button></td>
+<td style="padding-top:40px;padding-left:15px;"><button onclick="document.location='nutrition.html'"style="font-size:100%;">Nutrition</button></td>
+<td style="padding-top:40px;padding-left:15px;"><button onclick="document.location='gallery.html'"style="font-size:100%;">Gallery</button></td>
+</tr>
+</table>
+</head>
+<body>
+<div class="main">
+<div class="register">
+	<h2>REGISTER HERE</h2>
+	<form id="register" method="post">
+	<label>First Name :</label>
+		<br>
+		<input type="text" name="fname" id="name" placeholder="Enter Your First Name" required/>
+		<br><br>
+		<label>Last Name :</label>
+		<br>
+		<input type="text" name="lname" id="lname" placeholder="Enter Your Last Name" required/>
+		<br><br>
+		<label>Your Age :</label>
+		<br>
+		<input type="number" name="age"
+			   id="age" placeholder="How Old Are You?" required/>
+		<br><br>
+		<label>Email :</label>
+		<br>
+		<input type="email" name="email"
+			   id="email" placeholder="Enter Your Valid Email id">
+		<br><br>
+			   <label>Mobile Number :</label>
+			   <br>
+		<input type="number" name="number" id="number"
+			   placeholder="Enter Your Mobile Number" required/>
+		<br><br>
+		<label>Gender :</label>
+		<br>
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender" id="male" required/>
+		&nbsp;
+		<span id="male">Male</span>
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender" id="female" required/>
+		&nbsp;
+		<span id="female">Female</span> 
+		<br><br>
+		<label>Set User ID</label>
+		<br>
+		<input type="text" name="id" id="id"
+			   placeholder="Enter a Suitable ID" required/>
+		<br><br>
+		<label>Enter a password :</label>
+		<br>
+		<input type="password"name="password" id="password" placeholder="Enter a Suitable Password" required/>
+		<br><br>
+		<label>Confirm your password :</label>
+		<input type="password" name="cpassword" id="cpassword" placeholder="Confirm Your Password" required/>
+		<br><br>
+		<input type="submit" name="submit" id="submit">
+		
+	</form>
+		
+	</div><!--end register-->
+	</div><!--end main-->
+<table>
+<tr><td style= padding-left:700px;" colspan="3">
+<a href="login.html" target="_top">Sign in</a>
+</td></tr>
+<tr>
+<td>
+</br>
+<a href="terms.html" target="_top">Terms of Use</a>
+</td><br/>
+<td style="padding-left:570px;">
+<a href="contact.html" target="_top">Contact Us</a>
+</td>
+<td style="padding-left:570px;">
+<a href="privacy.html" target="_top">Privacy Policy</a>
+</td></tr>
+</table>
+</body>
+</html>
